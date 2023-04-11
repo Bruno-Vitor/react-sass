@@ -2,6 +2,7 @@ import React from 'react'
 import SocialNetworks from './SocialNetworks';
 import Avatar from '../img/bc.jpg';
 import '../styles/components/sidebar.sass';
+import InformationContainer from './InformationContainer';
 
 const Sidebar = () => {
   return (
@@ -9,7 +10,7 @@ const Sidebar = () => {
       <img src={Avatar} alt="Bruno Corrêa" />
       <p className='title'>Front-end Developer</p>
       <SocialNetworks />
-      <p>Informações de contato</p>
+      <InformationContainer />
       <a href="" className='btn'>
         Download currículo
       </a>
